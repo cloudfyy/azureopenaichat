@@ -26,6 +26,16 @@ npm run serve
 ```
 
 后端
+运行前需要配置，请打开backend/.env文件，修改如下配置并保存
+```
+azureOpenAIBaseUrl= 'https://xxx.openai.azure.com',
+azureOpenAIDeploymet= 'qiqi1',
+azureOpenAIAPIVersion= '2023-03-15-preview',
+azureOpenAIKey= 'xxxxxxxxxxx',
+max_token= 4096,
+azureOpenAIModelVersion= 'gpt-3.5-turbo'
+```
+然后运行
 ```
 node server.js
 ```
