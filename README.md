@@ -1,24 +1,34 @@
-# azureopenaichat
+# azurazure openai VUE和node.js示例程序
 
-## Project setup
+## 项目结构
+-frontend VUE前端，默认端口8080
+-backend node.js后端，默认端口8081
+-lib共享库
+
+## Project 配置
+
+请到frontend和backend后边运行
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
+
+前端
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+后端
 ```
-npm run build
+node server.js
 ```
+## 运行效果
 
-### Lints and fixes files
-```
-npm run lint
-```
+![演示页面](/img/demo-page.png)
+![后端](/img/backend-dev.png)
+![前端](/img/frontend-dev.png)
 
-### Customize configuration
+
+## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
