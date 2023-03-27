@@ -1,9 +1,9 @@
 # azurazure openai VUE和node.js示例程序
 
 ## 项目结构
--frontend VUE前端，默认端口8080
--backend node.js后端，默认端口8081
--lib共享库
+* frontend VUE前端，默认端口8080
+* backend node.js后端，默认端口8081
+* lib共享库
 
 ## Project 配置
 
