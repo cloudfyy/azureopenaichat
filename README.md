@@ -1,6 +1,12 @@
 # azurazure openai VUE和node.js示例程序
 
+## 功能
+
+* Chat Completeion接口
+* token计算接口
+
 ## 项目结构
+
 * frontend VUE前端，默认端口8080
 * backend node.js后端，默认端口8081
 * lib共享库
