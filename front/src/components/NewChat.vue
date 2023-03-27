@@ -27,8 +27,10 @@
             <div class="avatar">
               <img src="@/assets/avatar.png" alt="Avatar" />
             </div>
-              <input class="input-field" type="text" v-model="newMessage" placeholder="请输入消息..." 
-              @keyup.enter="sendMessage" @input ="this.inputChange" />
+              <input class="input-field" 
+                
+               type="text" v-model="newMessage" placeholder="请输入消息..." 
+               @input ="this.inputChange" />
               <button class="send-button" @click="sendMessage">Send</button>
               
           </div>
@@ -63,6 +65,9 @@
       messageListMaxHeight() {
         if (!this.$el) return '' // return empty string if $el is not available yet
         return this.$el.clientHeight - 80 + 'px'
+      },
+      areaHeight() {
+        return this.newMessage.split('\n').length * 20 + 20 
       }  
      
     },
